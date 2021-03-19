@@ -8,6 +8,17 @@
   <link rel="shortcut icon" href="img/favicon.svg" type="image/png">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-75584627-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'UA-75584627-1');
+  </script>
+
 </head>
 
 <body>
@@ -17,12 +28,14 @@
 
     <div class="links">
       <!-- <a href="https://www.instagram.com/undef.life/">Life account</a> -->
-      <a href="https://t.me/undefZahar">Telegram</a>
-      <a href="https://f3.cool/undef.zahar">F3</a>
-      <a href="https://t.me/undef_music">My playlist</a>
-      <a href="https://t.me/undefZaha">Telegram Channel</a>
-      <a href="https://www.tiktok.com/@undef.zahar">TikTok</a>
-      <a href="https://undefzahar.github.io/#/">Portfolio</a>
+      <a href="https://t.me/undefZahar" onClick="ga('send', 'event', 'link', 'click');">Telegram</a>
+      <a href="https://f3.cool/undef.zahar" onClick="ga('send', 'event', 'link', 'click');">F3</a>
+      <a href="https://t.me/undef_music" onClick="ga('send', 'event', 'link', 'click');">My
+        playlist</a>
+      <a href="https://t.me/undefZaha" onClick="ga('send', 'event', 'link', 'click');">Telegram
+        Channel</a>
+      <a href="https://www.tiktok.com/@undef.zahar" onClick="ga('send', 'event', 'link', 'click');">TikTok</a>
+      <a href="https://undefzahar.github.io/#/" onClick="ga('send', 'event', 'link', 'click');">Portfolio</a>
     </div>
   </div>
 
